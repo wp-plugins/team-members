@@ -6,7 +6,7 @@ Stable tag: trunk
 License: GPL2
 License URI: http://www.gnu.org/licenses/gpl.html
 
-A responsive and clean way to display your team. Create new members, add their positions, bios (and more...) and copy-paste the shortcode into any post/page.
+A responsive and clean way to display your team. Create members, add their positions, bios (and more...) and copy-paste the shortcode anywhere.
 
 == Description ==
 [View demo & instructions](http://wpdarko.com/team-members/)
