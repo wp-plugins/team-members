@@ -1,5 +1,5 @@
 === Team Members ===
-Tags: easy, team, grid, shortcode, responsive, members, staff, people, showcase, employees, simple, founders
+Tags: team, my team, our team, grid, shortcode, responsive, members, staff, people, showcase, employees, simple, founders
 Requires at least: 3.6
 Tested up to: 4.0
 Stable tag: trunk
@@ -15,6 +15,11 @@ This plugin adds a “Teams” section to the admin panel which allows you to sh
 
 = Rate and review =
 We love to hear from our users, please take the time to rate this plugin and tell us what you think about it!
+
+= Free vs PRO version? =
+The free version of the Team Members plugin is **not limited** and does not contain any ad.         
+
+The [PRO version](http://wpdarko.com/team-members-pro/) will gives you access to new features very soon (it is under construction).
 
 = Author =
 [WP Darko](http://wpdarko.com/) is one more great place to find exclusive WordPress themes & plugins.
@@ -51,6 +56,11 @@ Go to [the plugin's page](http://wpdarko.com/team-members/) for information on h
 
 = Where can I get help with this plugin? =
 Find help in [our forums](http://wpdarko.com/forum/plugins/team-members/) for this plugin (we’ll answer you fast, promise).
+
+= Free vs PRO version? =
+The free version of the Team Members plugin is **not limited** and does not contain any ad.         
+
+The [PRO version](http://wpdarko.com/team-members-pro/) will gives you access to new features very soon (it is under construction).
 
 == Screenshots ==
 1. Team Members (front view - 3 per line)
