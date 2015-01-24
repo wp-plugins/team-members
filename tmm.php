@@ -170,7 +170,7 @@ function tmm_metaboxes( array $meta_boxes ) {
     
     
     function tmm_pro_side_meta() {
-        return "<p style='font-size:14px; color:#333; font-style:normal;'>This free version is <strong>NOT</strong> limited and does <strong>not</strong> contain any ad. Check out the <a href='http://wpdarko.com/meet-the-team-pro/'><span style='color:#61d1aa !important;'>PRO version</span></a> for more great features.</p>";
+        return "<p style='font-size:14px; color:#333; font-style:normal;'>This free version is <strong>NOT</strong> limited and does <strong>not</strong> contain any ad. Check out the <a href='http://wpdarko.com/items/team-members-pro/'><span style='color:#61d1aa !important;'>PRO version</span></a> for more great features.</p>";
     }
     
      $meta_boxes[] = array(
