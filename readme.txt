@@ -19,7 +19,7 @@ We love to hear from our users, please take the time to rate this plugin and tel
 = Free vs PRO version? =
 The free version of the Team Members plugin is **not limited** and does not contain any ad.         
 
-The [PRO version](http://wpdarko.com/team-members-pro/) will gives you access to new features very soon (it is under construction).
+The [PRO version](http://wpdarko.com/items/team-members-pro/) will gives you access to new features very soon (it is under construction).
 
 = Author =
 [WP Darko](http://wpdarko.com/) is one more great place to find exclusive WordPress themes & plugins.
@@ -60,7 +60,7 @@ Find help in [our forums](http://wpdarko.com/forum/plugins/team-members/) for th
 = Free vs PRO version? =
 The free version of the Team Members plugin is **not limited** and does not contain any ad.         
 
-The [PRO version](http://wpdarko.com/team-members-pro/) will gives you access to new features very soon (it is under construction).
+The [PRO version](http://wpdarko.com/items/team-members-pro/) will gives you access to new features very soon (it is under construction).
 
 == Screenshots ==
 1. Team Members (front view - 3 per line)
