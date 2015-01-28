@@ -68,6 +68,9 @@ The [PRO version](http://wpdarko.com/items/team-members-pro/) will gives you acc
 3. Creating members (admin view)
 
 == Changelog ==
+= 1.0.1 =
+* SAFE UPDATE: No data loss for those upgrading from version 1.0 or higher
+* Preparing for PRO version
 
 = 1.0 =
 * Responsive Team Members custom type/shortcode
