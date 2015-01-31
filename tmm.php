@@ -3,14 +3,14 @@
  * Plugin Name: Team Members
  * Plugin URI: http://wpdarko.com/team-members/
  * Description: A responsive, simple and clean way to display your team. Create new members, add their positions, bios, social links and copy-paste the shortcode into any post/page. Find support and information on the <a href="http://wpdarko.com/team-members/">plugin's page</a>. This free version is NOT limited and does not contain any ad. Check out the <a href='http://wpdarko.com/team-members-pro/'>PRO version</a> for more great features.
- * Version: 1.0.1
+ * Version: 1.1
  * Author: WP Darko
  * Author URI: http://wpdarko.com
  * License: GPL2
  */
 
 function tmm_free_pro_check() {
-    if (is_plugin_active('team-members-pro/tmm_pro.php')) {
+    if (is_plugin_active('team-members-pro/tmm-pro.php')) {
         
         function my_admin_notice(){
         echo '<div class="updated">
@@ -244,14 +244,19 @@ function tmm_sc($atts) {
         <div class="tmm_wrap">
                 ';
                 
-                $counter = 1;
-                $cols = $tmm_columns;
+                $i = 0;
     
                 foreach ($members as $key => $member) {
-                    
-                if ( $counter % $cols == 1 || $counter == 1 ) {
-                    $output .= '<div class="tmm_three_entries">';
-                } 
+            
+                    if($i%$tmm_columns == 0) {
+                        if($i > 0) { 
+                            $output .= "</div>";
+                            $output .= '<div class="clearer"></div>';
+                        } // close div if it's not the first
+                        
+                        
+                        $output .= "<div class='tmm_container'>";
+                    }
                     
                     $output .= '<div class="tmm_member" style="border-top:'.$tmm_color.' solid 5px;">';
                         $output .= wp_get_attachment_image( $member['tmm_photo'] );
@@ -285,12 +290,17 @@ function tmm_sc($atts) {
                         $output .= '</div>';
                     $output .= '</div>';
                     
-                if ($counter % $cols == 0) {
-                    $output .= '</div>';
+                    $pages_count = count( $members );
+                    if ($key == $pages_count - 1) {
+                        $output .= '<div class="clearer"></div>';
                     }
-                    $counter++;   
+                    
+                    $i++;
+                    
                 }
-    $output .= '<div class="clearer"></div></div>';
+    
+    $output .= '</div>';
+    $output .= '</div>';
     $output .= '</div>';
     $output .= '</div>';
    

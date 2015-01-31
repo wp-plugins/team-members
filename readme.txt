@@ -68,6 +68,10 @@ The [PRO version](http://wpdarko.com/items/team-members-pro/) gives you access t
 3. Creating members (admin view)
 
 == Changelog ==
+= 1.1 =
+* SAFE UPDATE: No data loss for those upgrading from version 1.0 or higher
+* Major bug fix (the sidebar ended up inside the content on some themes when a certain number of members was reached)
+
 = 1.0.1 =
 * SAFE UPDATE: No data loss for those upgrading from version 1.0 or higher
 * Preparing for PRO version
