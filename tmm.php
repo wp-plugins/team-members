@@ -174,7 +174,7 @@ function tmm_metaboxes( array $meta_boxes ) {
     }
     
      $meta_boxes[] = array(
-        'title' => 'Meet The Team PRO',
+        'title' => 'Team Members PRO',
         'pages' => 'tmm',
         'context' => 'side',
         'priority' => 'low',
