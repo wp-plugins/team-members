@@ -72,6 +72,7 @@ The [PRO version](http://wpdarko.com/items/team-members-pro/) gives you access t
 * SAFE UPDATE: No data loss for those upgrading from version 1.0 or higher
 * Added more social network support (tumblr, pinterest, instagram)
 * You can now add a website for your members
+* Fixed some styling issues
 
 = 1.1 =
 * SAFE UPDATE: No data loss for those upgrading from version 1.0 or higher
