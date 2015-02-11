@@ -42,8 +42,8 @@
 
 .tmm_member .tmm_textblock .tmm_scblock {padding-top:10px;}
 .tmm_member .tmm_textblock {padding:10px 20px;}
-.tmm_member .tmm_textblock .tmm_sociallink {clear:both; margin-bottom:20px;}
-.tmm_member .tmm_textblock .tmm_sociallink img {border:none; width:24px; height:24px; box-shadow: 0 0 0 0;margin:10px 5px;}
+.tmm_member .tmm_textblock .tmm_sociallink {clear:both; margin-bottom:20px; border:none;}
+.tmm_member .tmm_textblock .tmm_sociallink img {display:inline-block; border:none; width:24px; height:24px; box-shadow: 0 0 0 0;margin:10px 5px;}
 .tmm_4_columns .tmm_member .tmm_textblock .tmm_sociallink img {width:21px; height:21px; margin:6px 3px;}
 .tmm_member .tmm_textblock .tmm_sociallink img:hover {opacity:0.8;} 
 
