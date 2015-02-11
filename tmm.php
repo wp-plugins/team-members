@@ -3,7 +3,7 @@
  * Plugin Name: Team Members
  * Plugin URI: http://wpdarko.com/team-members/
  * Description: A responsive, simple and clean way to display your team. Create new members, add their positions, bios, social links and copy-paste the shortcode into any post/page. Find support and information on the <a href="http://wpdarko.com/team-members/">plugin's page</a>. This free version is NOT limited and does not contain any ad. Check out the <a href='http://wpdarko.com/team-members-pro/'>PRO version</a> for more great features.
- * Version: 1.1
+ * Version: 1.2
  * Author: WP Darko
  * Author URI: http://wpdarko.com
  * License: GPL2
@@ -84,6 +84,10 @@ function tmm_metaboxes( array $meta_boxes ) {
                 'linkedin' => 'LinkedIn',
                 'googleplus' => 'Google+',
                 'facebook' => 'Facebook',
+                'instagram' => 'Instagram',
+                'tumblr' => 'Tumblr',
+                'pinterest' => 'Pinterest',
+                'website' => 'Website',
                 'customlink' => 'Other links',
             )
         ),
@@ -99,6 +103,10 @@ function tmm_metaboxes( array $meta_boxes ) {
                 'linkedin' => 'LinkedIn',
                 'googleplus' => 'Google+',
                 'facebook' => 'Facebook',
+                'instagram' => 'Instagram',
+                'tumblr' => 'Tumblr',
+                'pinterest' => 'Pinterest',
+                'website' => 'Website',
                 'customlink' => 'Other links',
             )
         ),
@@ -114,6 +122,10 @@ function tmm_metaboxes( array $meta_boxes ) {
                 'linkedin' => 'LinkedIn',
                 'googleplus' => 'Google+',
                 'facebook' => 'Facebook',
+                'instagram' => 'Instagram',
+                'tumblr' => 'Tumblr',
+                'pinterest' => 'Pinterest',
+                'website' => 'Website',
                 'customlink' => 'Other links',
             )
         ),
@@ -174,7 +186,7 @@ function tmm_metaboxes( array $meta_boxes ) {
     }
     
      $meta_boxes[] = array(
-        'title' => 'Team Members PRO',
+        'title' => 'Meet The Team PRO',
         'pages' => 'tmm',
         'context' => 'side',
         'priority' => 'low',

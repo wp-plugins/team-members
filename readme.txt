@@ -16,8 +16,8 @@ This plugin adds a “Teams” section to the admin panel which allows you to sh
 = Rate and review =
 We love to hear from our users, please take the time to rate this plugin and tell us what you think about it!
 
-= No limitation for the Free version =
-The Free version of the Team Members plugin is **not limited** and does not contain any ad.     
+= Free vs PRO version? =
+The free version of the Team Members plugin is **not limited** and does not contain any ad.     
 
 The [PRO version](http://wpdarko.com/items/team-members-pro/) gives you access to a lot of new features: Pictures’ shape, enabling/disabling picture borders, picture position. It also allows you to add filters to your pictures, set a color for each member instead of one general color for everybody (good for distinguishing your staff). One more link can be added to each member.     
 
@@ -57,8 +57,8 @@ Go to [the plugin's page](http://wpdarko.com/team-members/) for information on h
 = Where can I get help with this plugin? =
 Find help in [our forums](http://wpdarko.com/forum/plugins/team-members/) for this plugin (we’ll answer you fast, promise).
 
-= No limitation for the Free version =
-The Free version of the Team Members plugin is **not limited** and does not contain any ad.       
+= Free vs PRO version? =
+The free version of the Team Members plugin is **not limited** and does not contain any ad.       
 
 The [PRO version](http://wpdarko.com/items/team-members-pro/) gives you access to a lot of new features: Pictures’ shape, enabling/disabling picture borders, picture position. It also allows you to add filters to your pictures, set a color for each member instead of one general color for everybody (good for distinguishing your staff). One more link can be added to each member.
 
@@ -68,6 +68,11 @@ The [PRO version](http://wpdarko.com/items/team-members-pro/) gives you access t
 3. Creating members (admin view)
 
 == Changelog ==
+= 1.2 =
+* SAFE UPDATE: No data loss for those upgrading from version 1.0 or higher
+* Added more social network support (tumblr, pinterest, instagram)
+* You can now add a website for your members
+
 = 1.1 =
 * SAFE UPDATE: No data loss for those upgrading from version 1.0 or higher
 * Major bug fix (the sidebar ended up inside the content on some themes when a certain number of members was reached)
