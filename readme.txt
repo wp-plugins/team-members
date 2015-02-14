@@ -19,7 +19,7 @@ We love to hear from our users, please take the time to rate this plugin and tel
 = Free vs PRO version? =
 The free version of the Team Members plugin is **not limited** and does not contain any ad.     
 
-The [PRO version](http://wpdarko.com/items/team-members-pro/) gives you access to a lot of new features: Pictures’ shape, enabling/disabling picture borders, picture position. It also allows you to add filters to your pictures, set a color for each member instead of one general color for everybody (good for distinguishing your staff). One more link can be added to each member.     
+The [PRO version](http://wpdarko.com/items/team-members-pro/) gives you access to a lot of new features: Pictures’ shape, enabling/disabling picture borders, picture position It also allows you to show from 1 to 5 members per line, add filters to your pictures, set a color for each member instead of one general color for everybody (good for distinguishing your staff). Two more links can be added to each member.    
 
 = Author =
 [WP Darko](http://wpdarko.com/) is one more great place to find exclusive WordPress themes & plugins.
@@ -30,6 +30,7 @@ The [PRO version](http://wpdarko.com/items/team-members-pro/) gives you access t
 * Description/bio
 * Picture
 * Social links (FB, Twitter…)
+* Number of members to show per line (2, 3, 4) 
 * Color 
 
 = Usage =
