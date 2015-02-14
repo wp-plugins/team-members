@@ -17,6 +17,7 @@
 
 .tmm_three_entries {clear:both;}
 
+.tmm_2_columns .tmm_member {width: 48%; margin-right:1%; margin-left:1%;}
 .tmm_3_columns .tmm_member {width: 31%; margin-right:1%; margin-left:1%;}
 .tmm_4_columns .tmm_member {width: 23%; margin-right:1%; margin-left:1%;}
 
@@ -80,7 +81,7 @@
 /* MOBILE  */
 @media only screen and (max-width: 40em) {
 	.tmm_member {width: 96%; margin:0 2%; margin-top:120px;}
-    .tmm_3_columns .tmm_member, .tmm_4_columns .tmm_member {width: 96%; margin:0 2%; margin-top:120px;}
+    .tmm_2_columns .tmm_member, .tmm_3_columns .tmm_member, .tmm_4_columns .tmm_member {width: 96%; margin:0 2%; margin-top:120px;}
     .tmm_4_columns .tmm_desc {font-size:15px;}
     .tmm_4_columns .tmm_member > img {
     width:150px; 

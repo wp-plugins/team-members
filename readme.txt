@@ -68,6 +68,11 @@ The [PRO version](http://wpdarko.com/items/team-members-pro/) gives you access t
 3. Creating members (admin view)
 
 == Changelog ==
+= 1.3 =
+* SAFE UPDATE: No data loss for those upgrading from version 1.0 or higher
+* You can now show 2, 3 or 4 members per line
+* Styling bug fixes
+
 = 1.2 =
 * SAFE UPDATE: No data loss for those upgrading from version 1.0 or higher
 * Added more social network support (tumblr, pinterest, instagram)
