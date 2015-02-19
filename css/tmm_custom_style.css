@@ -54,7 +54,7 @@
 .tmm_lname {display:inline;}
 .tmm_job {font-size:14px; color:#a2a5a4; text-transform:uppercase;}
 .tmm_desc {padding:10px; margin-top:19px; margin-bottom:10px; font-size:14px;}
-.tmm_4_columns .tmm_desc {padding:8px; margin-top:14px; margin-bottom:8px; font-size:13px;}
+.tmm_4_columns .tmm_desc {padding:8px; margin-top:14px; margin-bottom:8px; font-size:13px; line-height: 23px;}
 
 /* TABLETS */
 @media only screen and (min-width: 40em) and (max-width: 64.063em) {
