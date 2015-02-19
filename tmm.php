@@ -275,9 +275,9 @@ function tmm_sc($atts) {
                         $output .= wp_get_attachment_image( $member['tmm_photo'] );
                         $output .= '<div class="tmm_textblock">';
                             $output .= '<div class="tmm_names">';
-                                $output .= '<div class="tmm_fname">'.$member['tmm_firstname'].'</div>';
+                                $output .= '<span class="tmm_fname">'.$member['tmm_firstname'].'</span>';
                                 $output .= '&nbsp;';
-                                $output .= '<div class="tmm_lname">'.$member['tmm_lastname'].'</div>';
+                                $output .= '<span class="tmm_lname">'.$member['tmm_lastname'].'</span>';
                             $output .= '</div>';
                             $output .= '<div class="tmm_job">'.$member['tmm_job'].'</div>';
                             $output .= '<div class="tmm_desc">'.$member['tmm_desc'].'</div>';
