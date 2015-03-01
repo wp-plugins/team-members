@@ -1,7 +1,7 @@
 === Team Members ===
 Tags: team, my team, our team, grid, shortcode, responsive, members, staff, people, showcase, employees, simple, founders
 Requires at least: 3.6
-Tested up to: 4.0
+Tested up to: 4.1.1
 Stable tag: trunk
 License: GPL2
 License URI: http://www.gnu.org/licenses/gpl.html
