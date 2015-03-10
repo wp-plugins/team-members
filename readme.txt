@@ -9,8 +9,6 @@ License URI: http://www.gnu.org/licenses/gpl.html
 A responsive and clean way to display your team. Create members, add their positions, bios (and more...) and copy-paste the shortcode anywhere.
 
 == Description ==
-[View demo & instructions](http://wpdarko.com/team-members/)
-
 This plugin adds a “Teams” section to the admin panel which allows you to showcase your staff/employees/people on your website the easy way. You can quickly add members to your team(s), add their picture, position, bios, social links, re-order them at anytime and display them anywhere with a simple shortcode. What you see is what you get, and it’s totally free.
 
 = Rate and review =
@@ -34,10 +32,10 @@ The [PRO version](http://wpdarko.com/items/team-members-pro/) gives you access t
 * Color 
 
 = Usage =
-Go to [the plugin's page](http://wpdarko.com/team-members/) if you need more information on how to use this plugin.
+Go to [the plugin's documentation](http://wpdarko.com/support/documentation/get-started-team-members/) if you need more information on how to use this plugin.
 
 = Support =
-Find help in [our forums](http://wpdarko.com/forum/plugins/team-members/) for this plugin (we’ll answer you fast, promise).
+Find help in [our forums](http://wpdarko.com/support/forum/plugins/team-members/) for this plugin (we’ll answer you fast, promise).
 
 == Installation ==
 
@@ -48,15 +46,15 @@ Find help in [our forums](http://wpdarko.com/forum/plugins/team-members/) for th
 4. Activate the plugin
 
 = Usage =
-Go to [the plugin's page](http://wpdarko.com/team-members/) for information on how to use it.
+Go to [the plugin's documentation](http://wpdarko.com/support/documentation/get-started-team-members/) for information on how to use it.
 
 == Frequently Asked Questions ==
 
 = Example & Support =
-Go to [the plugin's page](http://wpdarko.com/team-members/) for information on how to use this plugin.
+Go to [the plugin's documentation](http://wpdarko.com/support/documentation/get-started-team-members/) for information on how to use this plugin.
 
 = Where can I get help with this plugin? =
-Find help in [our forums](http://wpdarko.com/forum/plugins/team-members/) for this plugin (we’ll answer you fast, promise).
+Find help in [our forums](http://wpdarko.com/support/forum/plugins/team-members/) for this plugin (we’ll answer you fast, promise).
 
 = Free vs PRO version? =
 The free version of the Team Members plugin is **not limited** and does not contain any ad.       
