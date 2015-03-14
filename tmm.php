@@ -7,7 +7,7 @@ Version: 1.3.1
 Author: WP Darko
 Author URI: http://wpdarko.com
 License: GPL2
- */
+*/
 
 function tmm_free_pro_check() {
     if (is_plugin_active('team-members-pro/tmm-pro.php')) {
