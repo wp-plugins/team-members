@@ -43,15 +43,7 @@ function create_tmm_type() {
       'public' => true,
       'has_archive'  => false,
       'hierarchical' => false,
-         'capabilities' => array(
-    'edit_post'          => 'update_core',
-    'read_post'          => 'update_core',
-    'delete_post'        => 'update_core',
-    'edit_posts'         => 'update_core',
-    'edit_others_posts'  => 'update_core',
-    'publish_posts'      => 'update_core',
-    'read_private_posts' => 'update_core'
-),
+      'capability_type'    => 'post',
       'supports'     => array( 'title' ),
       'menu_icon'    => 'dashicons-plus',
     )
