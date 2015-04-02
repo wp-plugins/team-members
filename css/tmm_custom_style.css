@@ -92,3 +92,6 @@
     .tmm_4_columns .tmm_names {font-size:22px;}
     .tmm_4_columns .tmm_member .tmm_textblock .tmm_sociallink img {width:24px; height:24px; margin:10px 5px;}
 }
+
+/* Force original fonts */
+.tmm_container .tmm_ori_f .tmm_fname, .tmm_container .tmm_ori_f .tmm_job, .tmm_container .tmm_ori_f .tmm_desc, .tmm_container .tmm_ori_f .tmm_lname {font-family: 'Helvetica Neue', Helvetica, Arial, sans-serif !important; font-weight:300 !important;}

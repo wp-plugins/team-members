@@ -67,6 +67,14 @@ The [PRO version](http://wpdarko.com/items/team-members-pro/) gives you access t
 3. Creating members (admin view)
 
 == Changelog ==
+= 2.0 =
+* SAFE UPDATE: No data loss for those upgrading from version 1.0 or higher
+* New admin interface (new framework)
+* You can now force the plugin's original fonts (user request)
+* Added docs and support forums links
+* Added instructions
+* Much cleaner code
+
 = 1.3.1 =
 * SAFE UPDATE: No data loss for those upgrading from version 1.0 or higher
 * Added an email icon for member links
