@@ -1,5 +1,5 @@
 === Team Members ===
-Contributors: WP Darko
+Contributors: spwebguy
 Tags: team, my team, our team, grid, shortcode, responsive, members, staff, people, showcase, employees, simple, founders
 Requires at least: 3.6
 Tested up to: 4.1.1
