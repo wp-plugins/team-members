@@ -561,11 +561,6 @@ function tmm_sc($atts) {
     
 	$members = get_post_meta( get_the_id(), '_tmm_head', true );
     $options = get_post_meta( get_the_id(), '_tmm_settings_head', true );
-  
-    foreach ($options as $key => $option) {
-        $tmm_columns = $option['_tmm_columns'];
-        $tmm_color = $option['_tmm_color'];
-    }
     
     $tmm_columns = get_post_meta( $post->ID, '_tmm_columns', true );
     $tmm_color = get_post_meta( $post->ID, '_tmm_color', true );
