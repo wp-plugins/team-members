@@ -71,6 +71,7 @@ The [PRO version](http://wpdarko.com/items/team-members-pro/) gives you access t
 = 2.0.3 =
 * SAFE UPDATE: No data loss for those upgrading from version 1.0 or higher
 * Style bug fixes
+* Allow HTML in fields (eg. adding anchor tags)
 
 = 2.0.2 =
 * SAFE UPDATE: No data loss for those upgrading from version 1.0 or higher

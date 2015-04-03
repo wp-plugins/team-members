@@ -185,6 +185,7 @@ function tmm_register_group_metabox() {
                 'id' => $prefix . 'firstname',
                 'type' => 'text',
                 'row_classes' => 'de_first de_twentyfive de_text de_input',
+                'sanitization_cb' => false,
             ));
     
             $main_group->add_group_field( $tmm_group, array(
@@ -192,6 +193,7 @@ function tmm_register_group_metabox() {
                 'id' => $prefix . 'lastname',
                 'type' => 'text',
                 'row_classes' => 'de_twentyfive de_text de_input',
+                'sanitization_cb' => false,
             ));
     
             $main_group->add_group_field( $tmm_group, array(
@@ -199,6 +201,7 @@ function tmm_register_group_metabox() {
                 'id' => $prefix . 'job',
                 'type' => 'text',
                 'row_classes' => 'de_fifty de_text de_input',
+                'sanitization_cb' => false,
             ));
     
     
@@ -220,6 +223,7 @@ function tmm_register_group_metabox() {
                     'rows' => 6,
                 ),
                 'row_classes' => 'de_first de_fifty de_textarea de_input',
+                'sanitization_cb' => false,
             ));
             
             $main_group->add_group_field( $tmm_group, array(
@@ -246,6 +250,7 @@ function tmm_register_group_metabox() {
                     'rows' => 1,
                 ),
                 'row_classes' => 'de_fifty de_text de_input',
+                'sanitization_cb' => false,
             ));
     
             $main_group->add_group_field( $tmm_group, array(
