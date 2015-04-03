@@ -68,6 +68,10 @@ The [PRO version](http://wpdarko.com/items/team-members-pro/) gives you access t
 3. Creating members (admin view)
 
 == Changelog ==
+= 2.0.2 =
+* SAFE UPDATE: No data loss for those upgrading from version 1.0 or higher
+* Only show images if there are
+
 = 2.0.1 =
 * SAFE UPDATE: No data loss for those upgrading from version 1.0 or higher
 * Bug fix on update
