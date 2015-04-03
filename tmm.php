@@ -3,7 +3,7 @@
 Plugin Name: Team Members
 Plugin URI: http://wpdarko.com/support/documentation/get-started-team-members/
 Description: A responsive, simple and clean way to display your team. Create new members, add their positions, bios, social links and copy-paste the shortcode into any post/page. Find support and information on the <a href="http://wpdarko.com/team-members/">plugin's page</a>. This free version is NOT limited and does not contain any ad. Check out the <a href='http://wpdarko.com/items/team-members-pro/'>PRO version</a> for more great features.
-Version: 2.0.2
+Version: 2.0.3
 Author: WP Darko
 Author URI: http://wpdarko.com
 License: GPL2
@@ -586,7 +586,7 @@ function tmm_sc($atts) {
                     }
                     
                     $output .= '<div class="tmm_member" style="border-top:'.$tmm_color.' solid 5px;">';
-                        if (isset($member['_tmm_photo'])){
+                        if (!empty($member['_tmm_photo'])){
                             $output .= '<img src="'.$member['_tmm_photo'].'"/>';
                         }
                         $output .= '<div class="tmm_textblock">';
