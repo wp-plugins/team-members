@@ -70,7 +70,7 @@ The [PRO version](http://wpdarko.com/items/team-members-pro/) gives you access t
 == Changelog ==
 = 2.0.4 =
 * SAFE UPDATE: No data loss for those upgrading from version 1.0 or higher
-* Added alt attribute to link’s icons
+* Added alt attribute to link’s icon
 
 = 2.0.3 =
 * SAFE UPDATE: No data loss for those upgrading from version 1.0 or higher
