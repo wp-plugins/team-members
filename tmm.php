@@ -657,7 +657,7 @@ function tmm_sc($atts) {
     $output .= '</div>';
    
 
-  endwhile; endif; wp_reset_query(); 
+  endwhile; endif;  
 	
   return $output;
 
