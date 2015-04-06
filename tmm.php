@@ -3,7 +3,7 @@
 Plugin Name: Team Members
 Plugin URI: http://wpdarko.com/support/documentation/get-started-team-members/
 Description: A responsive, simple and clean way to display your team. Create new members, add their positions, bios, social links and copy-paste the shortcode into any post/page. Find support and information on the <a href="http://wpdarko.com/team-members/">plugin's page</a>. This free version is NOT limited and does not contain any ad. Check out the <a href='http://wpdarko.com/items/team-members-pro/'>PRO version</a> for more great features.
-Version: 2.0.3
+Version: 2.0.4
 Author: WP Darko
 Author URI: http://wpdarko.com
 License: GPL2
@@ -606,11 +606,11 @@ function tmm_sc($atts) {
                             if ($member['_tmm_sc_type1'] != 'nada') {
                                 if ($member['_tmm_sc_type1'] == 'email') {
                                     $output .= '<a class="tmm_sociallink" href="mailto:'.$member['_tmm_sc_url1'].'" title="'.$member['_tmm_sc_title1'].'">';
-                                    $output .= '<img src="'.plugins_url('img/links/', __FILE__).$member['_tmm_sc_type1'].'.png"/>';
+                                    $output .= '<img alt="'.$member['_tmm_sc_title1'].'" src="'.plugins_url('img/links/', __FILE__).$member['_tmm_sc_type1'].'.png"/>';
                                     $output .= '</a>';
                                 } else {
                                     $output .= '<a class="tmm_sociallink" href="'.$member['_tmm_sc_url1'].'" title="'.$member['_tmm_sc_title1'].'">';
-                                    $output .= '<img src="'.plugins_url('img/links/', __FILE__).$member['_tmm_sc_type1'].'.png"/>';
+                                    $output .= '<img alt="'.$member['_tmm_sc_title1'].'" src="'.plugins_url('img/links/', __FILE__).$member['_tmm_sc_type1'].'.png"/>';
                                     $output .= '</a>';
                                 }
                             }
@@ -618,11 +618,11 @@ function tmm_sc($atts) {
                             if ($member['_tmm_sc_type2'] != 'nada') {
                                 if ($member['_tmm_sc_type2'] == 'email') {
                                     $output .= '<a class="tmm_sociallink" href="mailto:'.$member['_tmm_sc_url2'].'" title="'.$member['_tmm_sc_title2'].'">';
-                                    $output .= '<img src="'.plugins_url('img/links/', __FILE__).$member['_tmm_sc_type2'].'.png"/>';
+                                    $output .= '<img alt="'.$member['_tmm_sc_title2'].'" src="'.plugins_url('img/links/', __FILE__).$member['_tmm_sc_type2'].'.png"/>';
                                     $output .= '</a>';
                                 } else {
                                     $output .= '<a class="tmm_sociallink" href="'.$member['_tmm_sc_url2'].'" title="'.$member['_tmm_sc_title2'].'">';
-                                    $output .= '<img src="'.plugins_url('img/links/', __FILE__).$member['_tmm_sc_type2'].'.png"/>';
+                                    $output .= '<img alt="'.$member['_tmm_sc_title2'].'" src="'.plugins_url('img/links/', __FILE__).$member['_tmm_sc_type2'].'.png"/>';
                                     $output .= '</a>';
                                 }
                             }
@@ -630,11 +630,11 @@ function tmm_sc($atts) {
                             if ($member['_tmm_sc_type3'] != 'nada') {
                                 if ($member['_tmm_sc_type3'] == 'email') {
                                     $output .= '<a class="tmm_sociallink" href="mailto:'.$member['_tmm_sc_url3'].'" title="'.$member['_tmm_sc_title3'].'">';
-                                    $output .= '<img src="'.plugins_url('img/links/', __FILE__).$member['_tmm_sc_type3'].'.png"/>';
+                                    $output .= '<img alt="'.$member['_tmm_sc_title3'].'" src="'.plugins_url('img/links/', __FILE__).$member['_tmm_sc_type3'].'.png"/>';
                                     $output .= '</a>';
                                 } else {
                                     $output .= '<a class="tmm_sociallink" href="'.$member['_tmm_sc_url3'].'" title="'.$member['_tmm_sc_title3'].'">';
-                                    $output .= '<img src="'.plugins_url('img/links/', __FILE__).$member['_tmm_sc_type3'].'.png"/>';
+                                    $output .= '<img alt="'.$member['_tmm_sc_title3'].'" src="'.plugins_url('img/links/', __FILE__).$member['_tmm_sc_type3'].'.png"/>';
                                     $output .= '</a>';
                                 }
                             }
