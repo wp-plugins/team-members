@@ -588,10 +588,10 @@ function tmm_sc($atts) {
 		"name" => ''
 	), $atts));
 	
-    query_posts( array( 'post_type' => 'tmm', 'name' => $name, ) );
-    if ( have_posts() ) : while ( have_posts() ) : the_post();
-
     global $post;
+    $args = array('post_type' => 'tmm', 'name' => $name);
+    $custom_posts = get_posts($args);
+    foreach($custom_posts as $post) : setup_postdata($post);
     
 	$members = get_post_meta( get_the_id(), '_tmm_head', true );
     $options = get_post_meta( get_the_id(), '_tmm_settings_head', true );
@@ -693,7 +693,7 @@ function tmm_sc($atts) {
     $output .= '</div>';
    
 
-  endwhile; endif;  
+endforeach; wp_reset_query(); 
 	
   return $output;
 
