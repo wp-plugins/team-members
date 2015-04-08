@@ -3,7 +3,7 @@
 Plugin Name: Team Members
 Plugin URI: http://wpdarko.com/support/documentation/get-started-team-members/
 Description: A responsive, simple and clean way to display your team. Create new members, add their positions, bios, social links and copy-paste the shortcode into any post/page. Find support and information on the <a href="http://wpdarko.com/team-members/">plugin's page</a>. This free version is NOT limited and does not contain any ad. Check out the <a href='http://wpdarko.com/items/team-members-pro'>PRO version</a> for more great features.
-Version: 2.0.4
+Version: 2.1
 Author: WP Darko
 Author URI: http://wpdarko.com
 License: GPL2
@@ -204,17 +204,6 @@ function tmm_register_group_metabox() {
                 'sanitization_cb' => false,
             ));
     
-    
-            $main_group->add_group_field( $tmm_group, array(
-                'name' => '<span class="dashicons dashicons-format-image"></span> Photo',
-                'id'   => $prefix . 'photo',
-                'type' => 'file',
-                'attributes'  => array(
-                    'placeholder' => 'recommended size: 500 x 500',
-                ),
-                'row_classes' => 'de_first de_hundred de_upload de_input',
-            ));
-    
             $main_group->add_group_field( $tmm_group, array(
                 'name' => '<span class="dashicons dashicons-edit"></span> Description/bio',
 				'id' => $prefix . 'desc',
@@ -254,6 +243,13 @@ function tmm_register_group_metabox() {
             ));
     
             $main_group->add_group_field( $tmm_group, array(
+                'name' => '<span style="color:#8a7463;"><span class="dashicons dashicons-lock"></span> PRO Color (per member)</span>',
+                'id' => $prefix . 'freecolor',
+                'type' => 'colorpicker',
+                'row_classes' => 'de_first de_hundred de_color de_input',
+            ));
+    
+            $main_group->add_group_field( $tmm_group, array(
                 'name' => 'Member links',
                 'id' => $prefix . 'member_links_header',
                 'type' => 'title',
@@ -264,6 +260,7 @@ function tmm_register_group_metabox() {
                 'name'    => '<span class="dashicons dashicons-admin-generic"></span> Link type (icon)',
 			 'id'      => $prefix . 'sc_type1',
 			 'type'    => 'select',
+            'default' => 'nada',
 			 'options' => array(
 			 	'nada' => '-',
                     'twitter' => 'Twitter',
@@ -277,8 +274,8 @@ function tmm_register_group_metabox() {
                     'website' => 'Website',
                     'customlink' => 'Other links',
 			 ),
-			 'default' => 'nada',
-                'row_classes' => 'de_first de_twentyfive de_select de_text de_input',
+			 
+             'row_classes' => 'de_first de_twentyfive de_select de_text de_input',
             ));
     
             $main_group->add_group_field( $tmm_group, array(
@@ -289,7 +286,7 @@ function tmm_register_group_metabox() {
             ));
         
             $main_group->add_group_field( $tmm_group, array(
-                'name' => '<span class="dashicons dashicons-edit"></span> Link URL',
+                'name' => '<span class="dashicons dashicons-admin-links"></span> Link URL',
                 'id' => $prefix . 'sc_url1',
                 'type' => 'text',
                 'row_classes' => 'de_fifty de_text de_input',
@@ -299,6 +296,7 @@ function tmm_register_group_metabox() {
                 'name'    => '',
 			 'id'      => $prefix . 'sc_type2',
 			 'type'    => 'select',
+            'default' => 'nada',
 			 'options' => array(
 			 	'nada' => '-',
                     'twitter' => 'Twitter',
@@ -312,7 +310,6 @@ function tmm_register_group_metabox() {
                     'website' => 'Website',
                     'customlink' => 'Other links',
 			 ),
-			 'default' => 'nada',
                 'row_classes' => 'de_first de_twentyfive de_select de_text de_input de_nomtop',
             ));
     
@@ -334,6 +331,7 @@ function tmm_register_group_metabox() {
                 'name'    => '',
 			 'id'      => $prefix . 'sc_type3',
 			 'type'    => 'select',
+            'default' => 'nada',
 			 'options' => array(
 			 	'nada' => '-',
                     'twitter' => 'Twitter',
@@ -347,7 +345,6 @@ function tmm_register_group_metabox() {
                     'website' => 'Website',
                     'customlink' => 'Other links',
 			 ),
-			 'default' => 'nada',
                 'row_classes' => 'de_first de_twentyfive de_select de_text de_input de_nomtop',
             ));
     
@@ -363,21 +360,53 @@ function tmm_register_group_metabox() {
                 'id' => $prefix . 'sc_url3',
                 'type' => 'text',
                 'row_classes' => 'de_fifty de_text de_input de_nomtop',
-            ));
+            )); 
     
             $main_group->add_group_field( $tmm_group, array(
-                'name' => 'Member styling',
+                'name' => 'Member photo',
                 'id' => $prefix . 'member_styling_header',
                 'type' => 'title',
                 'row_classes' => 'de_hundred de_heading',
             ));
     
             $main_group->add_group_field( $tmm_group, array(
-                'name' => '<span style="color:#8a7463;"><span class="dashicons dashicons-lock"></span> PRO Color (per member)</span>',
-                'id' => $prefix . 'freecolor',
-                'type' => 'colorpicker',
-                'row_classes' => 'de_first de_hundred de_color de_input',
+                'name' => '<span class="dashicons dashicons-format-image"></span> Upload Photo',
+                'id'   => $prefix . 'photo',
+                'type' => 'file',
+                'attributes'  => array(
+                    'placeholder' => 'Recommended size: 250x250px',
+                ),
+                'options' => array(
+		            'add_upload_file_text' => __( 'Upload', 'jt_cmb2' ),
+	            ),
+                'row_classes' => 'de_first de_fifty de_upload de_input',
             ));
+    
+            $main_group->add_group_field( $tmm_group, array(
+                'name' => '<span style="color:#8a7463;"><span class="dashicons dashicons-lock"></span> PRO Upload hover photo',
+                'desc' => 'Add another photo that will replace the first one on hover.',
+                'id'   => $prefix . 'hoverphoto',
+                'type' => 'file',
+                'attributes'  => array(
+                    'placeholder' => 'Recommended size: 250x250px',
+                ),
+                'options' => array(
+		            'add_upload_file_text' => __( 'Upload', 'jt_cmb2' ),
+	            ),
+                'row_classes' => 'de_fifty de_upload de_input',
+            ));
+    
+            $main_group->add_group_field( $tmm_group, array(
+                'name' => '<span class="dashicons dashicons-admin-links"></span> Photo link URL',
+                'desc' => 'If a URL is added here, the member\'s photo will be clickable.',
+                'id' => $prefix . 'photo_url',
+                'type' => 'text',
+                'row_classes' => 'de_first de_hundred de_text de_input de_nomtop',
+                'attributes'  => array(
+                    'placeholder' => 'http://anything.com',
+                ),
+            )); 
+    
     
     // Settings group
     $side_group = new_cmb2_box( array(
@@ -591,8 +620,14 @@ function tmm_sc($atts) {
                     }
                     
                     $output .= '<div class="tmm_member" style="border-top:'.$tmm_color.' solid 5px;">';
-                        if (!empty($member['_tmm_photo'])){
-                            $output .= '<img src="'.$member['_tmm_photo'].'"/>';
+                        if (!empty($member['_tmm_photo_url'])){
+                            $output .= '<a href="'.$member['_tmm_photo_url'].'" title="'.$member['_tmm_firstname'].' '.$member['_tmm_lastname'].'">';
+                        }
+                            if (!empty($member['_tmm_photo'])){
+                                $output .= '<div class="tmm_photo tmm_phover_'.$name.'_'.$key.'" style="background: url('.$member['_tmm_photo'].'); margin-left: auto; margin-right:auto; background-size:contain !important;"></div>';
+                            }
+                        if (!empty($member['_tmm_photo_url'])){
+                            $output .= '</a>';
                         }
                         $output .= '<div class="tmm_textblock">';
                             $output .= '<div class="tmm_names">';
@@ -648,6 +683,7 @@ function tmm_sc($atts) {
                     }
                     
                     $i++;
+                    
                     
                 }
     

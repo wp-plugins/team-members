@@ -68,6 +68,13 @@ The [PRO version](http://wpdarko.com/items/team-members-pro/) gives you access t
 3. Creating members (admin view)
 
 == Changelog ==
+= 2.1 =
+* SAFE UPDATE: No data loss for those upgrading from version 1.0 or higher
+* A few layout changes for the admin interface
+* Added a link for the member’s photo (user request)
+* Added a hover photo (PRO version only)
+* Fixed a bug when removing/sorting the members
+
 = 2.0.4 =
 * SAFE UPDATE: No data loss for those upgrading from version 1.0 or higher
 * Added alt attribute to link’s icon
