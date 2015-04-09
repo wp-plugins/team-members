@@ -624,7 +624,7 @@ function tmm_sc($atts) {
                             $output .= '<a href="'.$member['_tmm_photo_url'].'" title="'.$member['_tmm_firstname'].' '.$member['_tmm_lastname'].'">';
                         }
                             if (!empty($member['_tmm_photo'])){
-                                $output .= '<div class="tmm_photo tmm_phover_'.$name.'_'.$key.'" style="background: url('.$member['_tmm_photo'].'); margin-left: auto; margin-right:auto; background-size:contain !important;"></div>';
+                                $output .= '<div class="tmm_photo tmm_phover_'.$name.'_'.$key.'" style="background: url('.$member['_tmm_photo'].'); margin-left: auto; margin-right:auto; background-size:cover !important;"></div>';
                             }
                         if (!empty($member['_tmm_photo_url'])){
                             $output .= '</a>';
