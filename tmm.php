@@ -160,6 +160,14 @@ function tmm_register_group_metabox() {
         'object_types' => array( 'tmm' ),
     ));
     
+     $main_group->add_field( array(
+         'name'    => '<span style="font-weight:400;">Getting started / Instructions</span>',
+         'desc' => 'Edit your members (see below), add more, reorder them and play around with the settings on the right. If you have trouble understanding how this works, click the "Help & Support tab on the right."',
+         'id'      => $prefix . 'instructions',
+         'type'    => 'title',
+         'row_classes' => 'de_hundred de_instructions',
+     ) );
+    
         $tmm_group = $main_group->add_field( array(
             'id' => $prefix . 'head',
             'type' => 'group',
