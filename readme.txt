@@ -1,6 +1,6 @@
 === Team Members ===
 Contributors: spwebguy
-Tags: team, teams, meet the team, shortcode, responsive, members, staff, people, employees
+Tags: team, teams, meet the team, shortcode, responsive, members, staff, people
 Requires at least: 3.6
 Tested up to: 4.1.1
 Stable tag: trunk
