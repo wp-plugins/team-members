@@ -12,23 +12,19 @@ A responsive and clean way to display your team. Create members, add their posit
 == Description ==
 This plugin adds a “Teams” section to the admin panel which allows you to showcase your staff/employees/people on your website the easy way. You can quickly add members to your team(s), add their picture, position, bios, social links, re-order them at anytime and display them anywhere with a simple shortcode. What you see is what you get, and it’s totally free.
 
-= Rate and review =
-We love to hear from our users, please take the time to rate this plugin and tell us what you think about it!
-
-= Free vs PRO version? =
+= No limitation for the Free version =
 The free version of the Team Members plugin is **not limited** and does not contain any ad.     
 
-The [PRO version](http://wpdarko.com/items/team-members-pro/) gives you access to a lot of new features: Pictures’ shape, enabling/disabling picture borders, picture position It also allows you to show from 1 to 5 members per line, add filters to your pictures, set a color for each member instead of one general color for everybody (good for distinguishing your staff). Two more links can be added to each member.    
+The [PRO version](http://wpdarko.com/items/team-members-pro/) gives you access to a lot of new features: New picture on hover, pictures’ shape, enabling/disabling picture borders, picture position It also allows you to show from 1 to 5 members per line, add filters to your pictures, set a color for each member instead of one general color for everybody (good for distinguishing your staff). Two more links can be added to each member.    
 
-= Author =
-[WP Darko](http://wpdarko.com/) is one more great place to find exclusive WordPress themes & plugins.
-
-= Available fields/options =
+= Available fields =
 * Firstname
 * Lastname
 * Description/bio
 * Picture
 * Social links (FB, Twitter…)
+
+= Available settings =
 * Number of members to show per line (2, 3, 4) 
 * Color 
 
@@ -51,21 +47,25 @@ Go to [the plugin's documentation](http://wpdarko.com/support/documentation/get-
 
 == Frequently Asked Questions ==
 
-= Example & Support =
-Go to [the plugin's documentation](http://wpdarko.com/support/documentation/get-started-team-members/) for information on how to use this plugin.
+= No limitation for the Free version =
+The free version of the Team Members plugin is **not limited** and does not contain any ad.     
 
-= Where can I get help with this plugin? =
+The [PRO version](http://wpdarko.com/items/team-members-pro/) gives you access to a lot of new features: New picture on hover, pictures’ shape, enabling/disabling picture borders, picture position It also allows you to show from 1 to 5 members per line, add filters to your pictures, set a color for each member instead of one general color for everybody (good for distinguishing your staff). Two more links can be added to each member. 
+
+= Usage =
+Go to [the plugin's documentation](http://wpdarko.com/support/documentation/get-started-team-members/) if you need more information on how to use this plugin.
+
+= Support =
 Find help in [our forums](http://wpdarko.com/support/forum/plugins/team-members/) for this plugin (we’ll answer you fast, promise).
 
-= Free vs PRO version? =
-The free version of the Team Members plugin is **not limited** and does not contain any ad.       
-
-The [PRO version](http://wpdarko.com/items/team-members-pro/) gives you access to a lot of new features: Pictures’ shape, enabling/disabling picture borders, picture position. It also allows you to add filters to your pictures, set a color for each member instead of one general color for everybody (good for distinguishing your staff). One more link can be added to each member.
 
 == Screenshots ==
 1. Team Members (front view - 3 per line)
 2. Team Members (front view - 4 per line)
 3. Creating members (admin view)
+4. Creating members 2 (admin view)
+5. Team settings (admin view)
+6. Finding the shortcode (admin view)
 
 == Changelog ==
 = 2.1 =
