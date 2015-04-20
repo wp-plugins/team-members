@@ -68,6 +68,11 @@ Find help in [our forums](http://wpdarko.com/support/forum/plugins/team-members/
 6. Finding the shortcode (admin view)
 
 == Changelog ==
+= 2.1.1 =
+* SAFE UPDATE: No data loss for those upgrading from version 1.0 or higher
+* Fixes for picture display
+* Fix for member’s background
+
 = 2.1 =
 * SAFE UPDATE: No data loss for those upgrading from version 1.0 or higher
 * A few layout changes for the admin interface
