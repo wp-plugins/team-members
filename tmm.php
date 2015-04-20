@@ -537,7 +537,7 @@ function tmm_register_group_metabox() {
     
         $pro_group->add_field( array(
             'name' => '',
-                'desc' => 'This free version is <strong>not</strong> limited and does <strong>not</strong> contain any ad. Check out the PRO version for more great features.<br/><br/><a target="_blank" href="http://wpdarko.com/items/team-members-pro"><span class="dashicons dashicons-arrow-right-alt2"></span> See plugin\'s page</a><br/><br/><span style="font-size:13px; color:#88acbc;">Coupon code <strong>7884661</strong> (20% OFF).</span>',
+                'desc' => 'This free version is <strong>not</strong> limited and does <strong>not</strong> contain any ad. Check out the PRO version for more great features.<br/><br/><a target="_blank" href="http://wpdarko.com/items/team-members-pro"><span class="dashicons dashicons-arrow-right-alt2"></span> See plugin\'s page</a><br/><br/><span style="font-size:13px; color:#88acbc;">Coupon code <strong>7884661</strong> (10% OFF).</span>',
                 'id'   => $prefix . 'pro_desc',
                 'type' => 'title',
                 'row_classes' => 'de_hundred de_info de_info_side',
