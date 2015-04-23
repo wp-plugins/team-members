@@ -68,6 +68,10 @@ Find help in [our forums](http://wpdarko.com/support/forum/plugins/team-members/
 6. Finding the shortcode (admin view)
 
 == Changelog ==
+= 2.1.2 =
+* SAFE UPDATE: No data loss for those upgrading from version 1.0 or higher
+* Social links open in new windows
+
 = 2.1.1 =
 * SAFE UPDATE: No data loss for those upgrading from version 1.0 or higher
 * Fixes for picture display
