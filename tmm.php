@@ -1,7 +1,7 @@
 <?php
 /*
 Plugin Name: Team Members
-Plugin URI: http://wpdarko.com/support/documentation/get-started-team-members/
+Plugin URI: http://wpdarko.com/items/team-members-pro
 Description: A responsive, simple and clean way to display your team. Create new members, add their positions, bios, social links and copy-paste the shortcode into any post/page. Find support and information on the <a href="http://wpdarko.com/team-members/">plugin's page</a>. This free version is NOT limited and does not contain any ad. Check out the <a href='http://wpdarko.com/items/team-members-pro'>PRO version</a> for more great features.
 Version: 2.1.2
 Author: WP Darko
@@ -518,7 +518,7 @@ function tmm_register_group_metabox() {
     
         $help_group->add_field( array(
             'name' => '',
-                'desc' => 'Find help at WPdarko.com<br/><br/><a target="_blank" href="http://wpdarko.com/support/forum/plugins/team-members/"><span class="dashicons dashicons-arrow-right-alt2"></span> Support forum</a><br/><a target="_blank" href="http://wpdarko.com/support/documentation/get-started-team-members/"><span class="dashicons dashicons-arrow-right-alt2"></span> Documentation</a>',
+                'desc' => 'Find help at WPdarko.com<br/><br/><a target="_blank" href="http://wpdarko.com/support/"><span class="dashicons dashicons-arrow-right-alt2"></span> Support & documentation</a>',
                 'id'   => $prefix . 'help_desc',
                 'type' => 'title',
                 'row_classes' => 'de_hundred de_info de_info_side',
@@ -648,7 +648,7 @@ function tmm_sc($atts) {
                             $output .= '<div class="tmm_scblock">';
                             if ($member['_tmm_sc_type1'] != 'nada') {
                                 if ($member['_tmm_sc_type1'] == 'email') {
-                                    $output .= '<a target="_blank" class="tmm_sociallink" href="mailto:'.$member['_tmm_sc_url1'].'" title="'.$member['_tmm_sc_title1'].'">';
+                                    $output .= '<a class="tmm_sociallink" href="mailto:'.$member['_tmm_sc_url1'].'" title="'.$member['_tmm_sc_title1'].'">';
                                     $output .= '<img alt="'.$member['_tmm_sc_title1'].'" src="'.plugins_url('img/links/', __FILE__).$member['_tmm_sc_type1'].'.png"/>';
                                     $output .= '</a>';
                                 } else {
@@ -660,7 +660,7 @@ function tmm_sc($atts) {
                     
                             if ($member['_tmm_sc_type2'] != 'nada') {
                                 if ($member['_tmm_sc_type2'] == 'email') {
-                                    $output .= '<a target="_blank" class="tmm_sociallink" href="mailto:'.$member['_tmm_sc_url2'].'" title="'.$member['_tmm_sc_title2'].'">';
+                                    $output .= '<a class="tmm_sociallink" href="mailto:'.$member['_tmm_sc_url2'].'" title="'.$member['_tmm_sc_title2'].'">';
                                     $output .= '<img alt="'.$member['_tmm_sc_title2'].'" src="'.plugins_url('img/links/', __FILE__).$member['_tmm_sc_type2'].'.png"/>';
                                     $output .= '</a>';
                                 } else {
@@ -672,7 +672,7 @@ function tmm_sc($atts) {
                             
                             if ($member['_tmm_sc_type3'] != 'nada') {
                                 if ($member['_tmm_sc_type3'] == 'email') {
-                                    $output .= '<a target="_blank" class="tmm_sociallink" href="mailto:'.$member['_tmm_sc_url3'].'" title="'.$member['_tmm_sc_title3'].'">';
+                                    $output .= '<a class="tmm_sociallink" href="mailto:'.$member['_tmm_sc_url3'].'" title="'.$member['_tmm_sc_title3'].'">';
                                     $output .= '<img alt="'.$member['_tmm_sc_title3'].'" src="'.plugins_url('img/links/', __FILE__).$member['_tmm_sc_type3'].'.png"/>';
                                     $output .= '</a>';
                                 } else {
