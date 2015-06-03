@@ -29,10 +29,10 @@ The [PRO version](http://wpdarko.com/items/team-members-pro/) gives you access t
 * Color 
 
 = Usage =
-Go to [the plugin's documentation](http://wpdarko.com/support/documentation/get-started-team-members/) if you need more information on how to use this plugin.
+Go to [the plugin's documentation](https://wpdarko.zendesk.com/hc/en-us/articles/206303627-Get-started-with-the-Team-Members-plugin) if you need more information on how to use this plugin.
 
 = Support =
-Find help in [our forums](http://wpdarko.com/support/forum/plugins/team-members/) for this plugin (we’ll answer you fast, promise).
+Find help in [our forums](http://wpdarko.com/support/) for this plugin (we’ll answer you fast, promise).
 
 == Installation ==
 
@@ -43,7 +43,7 @@ Find help in [our forums](http://wpdarko.com/support/forum/plugins/team-members/
 4. Activate the plugin
 
 = Usage =
-Go to [the plugin's documentation](http://wpdarko.com/support/documentation/get-started-team-members/) for information on how to use it.
+Go to [the plugin's documentation](https://wpdarko.zendesk.com/hc/en-us/articles/206303627-Get-started-with-the-Team-Members-plugin) for information on how to use it.
 
 == Frequently Asked Questions ==
 
@@ -53,10 +53,10 @@ The free version of the Team Members plugin is **not limited** and does not cont
 The [PRO version](http://wpdarko.com/items/team-members-pro/) gives you access to a lot of new features: New picture on hover, pictures’ shape, enabling/disabling picture borders, picture position It also allows you to show from 1 to 5 members per line, add filters to your pictures, set a color for each member instead of one general color for everybody (good for distinguishing your staff). Two more links can be added to each member. 
 
 = Usage =
-Go to [the plugin's documentation](http://wpdarko.com/support/documentation/get-started-team-members/) if you need more information on how to use this plugin.
+Go to [the plugin's documentation](https://wpdarko.zendesk.com/hc/en-us/articles/206303627-Get-started-with-the-Team-Members-plugin) if you need more information on how to use this plugin.
 
 = Support =
-Find help in [our forums](http://wpdarko.com/support/forum/plugins/team-members/) for this plugin (we’ll answer you fast, promise).
+Find help in [our forums](http://wpdarko.com/support/) for this plugin (we’ll answer you fast, promise).
 
 
 == Screenshots ==
