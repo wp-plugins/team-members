@@ -701,7 +701,7 @@ function tmm_sc($atts) {
     $output .= '</div>';
    
 
-endforeach; wp_reset_query(); 
+endforeach; wp_reset_postdata(); 
 	
   return $output;
 
